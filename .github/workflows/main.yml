@@ -30,7 +30,7 @@ on:
         description: "Command to initialize a different 'repo' project:"
         required: false
         default: "echo 'Build Starting!'"
-        type: choice
+        type: required
         options: 
           - "echo 'Build Starting!'"
           - 'repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14'
